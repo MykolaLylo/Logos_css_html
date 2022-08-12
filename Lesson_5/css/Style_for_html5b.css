@@ -1,0 +1,23 @@
+body{
+    background-image: url(/Lesson_5/images/bg_2.jpg);
+}
+
+h1{
+    color: white;
+    text-decoration-line: underline;
+}
+
+h3{
+    text-align: center;
+    color: blue;
+}
+
+.block{
+    float: right;
+    width: 50em;
+    height: auto;
+    background-color: rgb(238, 162, 137);
+    border: 7px double white;
+    padding: 10px;
+    margin: 5px;
+}

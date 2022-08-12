@@ -1,0 +1,64 @@
+body{
+    background-image: url(/Lesson_9/images/12917625-asia-floral-background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.block{
+    clear: both;
+    background-color: aliceblue;
+    margin: 0 250px;
+    text-align: center;
+    
+}
+.block1{
+    width: 380px;
+    height: 330px;
+    text-align: center;
+    color: rgb(56, 50, 50);
+    font-size: 20px;
+    padding: 10px 0;
+    display: inline-block;
+    background-color: rgba(159, 177, 177, 0.76);
+    margin: 10px;
+}
+.logo{
+    display: inline-block;
+     padding-left: 300px;
+}
+.contact{
+    float: right; 
+    padding-right: 300px; 
+    width: 200px;
+}
+
+.copyright{
+    margin-top: 100px;
+    text-align: center;
+}
+@media screen and (max-width:1400px) {
+    .logo{
+        padding: 0;
+        text-align: center;
+        display: block;
+    }
+    .contact{
+        padding-right: 0;
+        margin: 0 auto;
+        float: none;
+        display: block;
+    }
+    .block{
+        margin: 0 100px;
+    }
+    .block1{
+        width: 400px;
+        height: 350px;
+    }
+    @media screen and (max-width:600px)  {
+        .block{
+            margin: 0;
+            text-align: center;
+        }
+    }
+   
+}

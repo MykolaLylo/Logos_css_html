@@ -1,0 +1,8 @@
+@font-face {
+    font-family: RobotoMono-italic;
+    src: url(/Lesson_3/fonts/RobotoMono-Italic-VariableFont_wght.ttf);
+}
+
+.block{
+    font-family: RobotoMono-italic; 
+}

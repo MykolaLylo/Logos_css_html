@@ -1,0 +1,140 @@
+body{
+   background-image: url(/Lesson_7/images/bg-7a.jpg) ;
+   background-size: cover; 
+}
+@font-face {
+    font-family: AkzidenzGrotesk;
+    src: url(/Lesson_7/fonts/FontsFree-Net-Akzidenz-Grotesk-Black.ttf);
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(/Lesson_7/fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+h1{
+    color: #00264d;
+    margin-top: 100px; 
+    text-shadow: 2px 2px 4px white;
+    text-align: center;
+    font-family: AkzidenzGrotesk;
+}
+.btn_facebook{
+    font-family: OpenSans;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(#0d76be, #0d63ab);    
+}
+.btn_facebook:hover{
+    background-image: linear-gradient(#2a81bb, #3292e0);
+}
+.table_facebook{
+    border-right: 1px solid black;
+}
+i{
+    padding: none;
+}
+.icon1{
+    color: white;
+}
+.btn_twitter{
+    font-family: OpenSans;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(#57d5ff, #17ade0);
+}
+.btn_twitter:hover{
+    background-image: linear-gradient(#57c3e7, #3db2da);
+}
+.table_twitter{
+    border-right: 1px solid black;
+}
+.block_1{
+    width: 50px;
+    height: 2px;
+    background-color: white;
+}
+.block_2{
+    font-family: OpenSans;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.username{
+    font-family: OpenSans;
+    margin-bottom: 5px;
+    background-image: url(/Lesson_7/images/user-icon.png);
+    border: solid #797979 1px ;
+    cursor: text;
+    background-size: contain ;
+    background-position: right;
+    background-repeat: no-repeat;
+    color: #797979 ;
+    width: 245px;
+    padding: 10px;
+    background-color: #ebebeb; 
+    border-radius: 5px;
+}
+.password{
+    font-family: OpenSans;
+    margin-bottom: 5px;
+    background-image: url(/Lesson_7/images/password-icon.png);
+    border: solid #797979 1px ;
+    cursor: text;
+    background-size: contain ;
+    background-position: right;
+    background-repeat: no-repeat;
+    color: #797979 ;
+    width: 245px;
+    padding: 10px ;
+    background-color: #ebebeb; 
+    border-radius: 5px;
+}
+.username:focus{
+    color: #007eff;
+    border: solid #007eff  1px;
+    background-image: url(/Lesson_7/images/user-icon-active.png);
+    outline: none;
+}
+.password:focus{
+    color: #007eff;
+    border: solid #007eff  1px;
+    background-image: url(/Lesson_7/images/password-icon-active.png);
+    outline: none;
+}
+input[type=text]::placeholder{
+    font-family: OpenSans;
+    color: #797979;
+}
+
+input:focus::placeholder{
+    color: #007eff;
+}
+.form_user{
+    width: 260px;
+    margin:auto auto;
+}
+.login{
+    font-family: OpenSans;
+    margin-bottom: 5px;
+    border: solid 1px #007eff;
+    padding: 10px;
+    text-align: center;
+    width: 260px;
+    background-color: #254e77;
+    border-radius: 5px;
+}
+.sign_up{
+    font-family: OpenSans;
+    text-align: center;
+}

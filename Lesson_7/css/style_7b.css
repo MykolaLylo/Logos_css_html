@@ -1,0 +1,117 @@
+body{
+    font-family: arial;
+    background-image:url(/Lesson_7/images/bg_7b.jpg);
+    
+}
+@font-face {
+    font-family: arial;
+    src: url(/Lesson_7/fonts/ARIBL0.ttf);
+} 
+.block_form{
+    width: 700px; 
+    height: 500px;
+    background-image: url(/Lesson_7/images/form-bg.png);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-350px;
+    margin-top:-250px;
+   padding: 100px 20px;
+}
+  .btn_facebook{
+    width: 170px;
+   text-align: center;
+    color: white;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(#0d76be, #0d63ab);    
+}
+.btn_facebook:hover{
+    background-image: linear-gradient(#2a81bb, #3292e0);
+}
+.table_facebook{
+    border-right: 1px solid black;
+}
+i{
+    padding: none;
+}
+.icon1{
+    color: white;
+}
+.btn_twitter{
+    width: 170px;
+   text-align: center;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(#57d5ff, #17ade0);
+}
+.btn_twitter:hover{
+    background-image: linear-gradient(#57c3e7, #3db2da);
+}
+.table_twitter{
+    border-right: 1px solid black;
+}
+.block_line{
+   margin-left: auto;
+   margin-right: auto;
+    width: 1px;
+    height: 118px;
+    background-color: #b9b9b9;
+}
+.block_line2{
+    width: 30px;
+    height: 30px;
+}
+.password{
+    float: right;
+    margin-bottom: 5px;
+    background-image: url(/Lesson_7/images/password-icon.png);
+    border: solid #797979 1px ;
+    cursor: text;
+    background-size: contain ;
+    background-position: left;
+    background-repeat: no-repeat;
+    color: #797979 ;
+    width: 245px;
+    padding: 10px ;
+    background-color: #ebebeb; 
+    border-radius: 5px;
+    
+}
+.password:focus{
+    border: solid black 1px;
+    outline: none;
+}
+.user{
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url(/Lesson_7/images/user-icon.png);
+    border: solid #797979 1px ;
+    cursor: text;
+    background-size: contain ;
+    background-position: left;
+    background-repeat: no-repeat;
+    color: #797979 ;
+    width: 245px;
+    padding: 10px;
+    background-color: #ebebeb; 
+    border-radius: 5px;
+}
+.user:focus{
+    outline: none;
+    border: solid #000000  1px;
+}
+.submit{
+    width: 80px;
+    height: 30px;
+    background-image: linear-gradient(#fad965, #d1b03d) ;
+    float: right;
+    border-radius: 5px;
+}

@@ -1,0 +1,42 @@
+.block{
+    width: 500px;
+    height: auto;
+    background-color: grey;
+    border: 7px double white;
+}
+
+td,tr{
+    text-align: center;
+    padding: 7px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr{
+    cursor: pointer;
+}
+
+.i1{
+    color: rgb(16, 155, 16);
+}
+
+.i1:hover{
+    color: rgb(211, 39, 39);
+}
+.i2{
+    color: black;
+}
+
+.i2:hover{
+    color: orangered;
+}
+.i3{
+    color: blue;
+}
+
+.i3:hover{
+    color: black;
+}

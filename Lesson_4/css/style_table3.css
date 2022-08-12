@@ -1,0 +1,21 @@
+table{
+    width: 1000px;
+    border-collapse: collapse;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+td, th, tr{
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+th{
+    background-color: yellow;
+}
+
+caption{
+    font-size: 2rem;
+}
